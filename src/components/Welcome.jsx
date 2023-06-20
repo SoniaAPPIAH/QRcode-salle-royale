@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Welcome () {
     return (
-        <div>Welcome to Heaven</div>
+        <div>Welcome</div>
     )
 }

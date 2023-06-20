@@ -21,13 +21,28 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(js|jsx)$/,
+                test: /\.jpg$|.jpeg$|.svg$/,
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: "[name].[hash].[ext]",
+                        outputPath: "assets",
+                        esModule: false
+                    }
+                }
+            },
+            {
+                test: /\.js$|.jsx$/,
                 exclude: /node_modules/,
                 use: ['babel-loader'],
+            },
+            {
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader"],
             },
         ],
     },
     resolve: {
-        extensions: ['*','.js','.jsx']
+        extensions: [".*",".js",".jsx", ".jpg", ".svg"]
     },
 };
