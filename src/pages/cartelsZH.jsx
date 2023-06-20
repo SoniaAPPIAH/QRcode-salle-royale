@@ -20,9 +20,7 @@ function CartelsZH () {
   const [imageToShow, setImageToShow] = useState("")
 
   const showImage = (image) => {
-    //set imageToShow to be the one that's been clicked on    
     setImageToShow(image);
-    //set lightbox visibility to true
     setLightBoxDisplay(true);
   };
 
@@ -44,9 +42,9 @@ function CartelsZH () {
                 {
                   lightboxDisplay ? 
                   <div className="lightbox" >
-                    <div className="lightboxBackground" >
-                      <img className="lightboxCross" src={cross} alt="cross" onClick={hideLightBox}/>
+                    <div className="lightboxBackground" onClick={hideLightBox} >
                       <img className="lightboxImg" src={imageToShow} alt="test"/> 
+                      <img className="lightboxCross" src={cross} alt="cross" />
                     </div>
                   </div>
                 : ""

@@ -122,12 +122,15 @@
   }
   
   .lightboxImg {
+    position: relative;
     max-height: 550px;
     object-fit: cover;
+    border: solid rgb(153, 153, 153) 2px;
   }
   
   .lightboxCross {
     position: absolute;
-    top: 0;
-    width: 50px;
+    top: 195px;
+    right: 825px;
+    width: 30px;
   }

@@ -42,9 +42,9 @@ function CartelsES () {
                 {
                   lightboxDisplay ? 
                   <div className="lightbox" >
-                    <div className="lightboxBackground" >
-                      <img className="lightboxCross" src={cross} alt="cross" onClick={hideLightBox}/>
+                    <div className="lightboxBackground" onClick={hideLightBox} >
                       <img className="lightboxImg" src={imageToShow} alt="test"/> 
+                      <img className="lightboxCross" src={cross} alt="cross" />
                     </div>
                   </div>
                 : ""
