@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/home.jsx'
 import CartelsES from './pages/cartelsES.jsx'
-import CartelsZH from './pages/cartelsZH.jsx'
+import CartelsZH from './pages/cartelsZh.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>

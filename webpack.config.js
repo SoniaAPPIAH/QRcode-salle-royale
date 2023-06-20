@@ -45,4 +45,9 @@ module.exports = {
     resolve: {
         extensions: [".*",".js",".jsx", ".jpg", ".svg"]
     },
+     performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+    },
 };

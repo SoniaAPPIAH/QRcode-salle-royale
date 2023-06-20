@@ -310,6 +310,12 @@ export const Data =
      },
      {
          "id" : "8",
+         "image" : [
+            {
+                "picture" : require("../assets/imagesVitrine/vitrine8.jpg"),
+                "file_name" : "Vitrine 8"                   
+            }
+        ],
          "title" : [
              "Louis XIII, roi de guerre", 
              "南征北战的路易十三"
@@ -388,6 +394,12 @@ export const Data =
      },
      {
          "id" : "9",
+         "image" : [
+            {
+                "picture" : require("../assets/imagesVitrine/vitrine9.jpg"),
+                "file_name" : "Vitrine 9"                   
+            }
+        ],
          "title" : [
              "Chefs-d'oeuvre d'arquebuserie", 
              "火器杰作"
@@ -472,6 +484,12 @@ export const Data =
      },
      {
          "id" : "10",
+         "image" : [
+            {
+                "picture" : require("../assets/imagesVitrine/vitrine10.jpg"),
+                "file_name" : "Vitrine 10"                   
+            }
+        ],
          "title" : [
              "Sièges et carrousels",
              "围攻城池和比武大会"
@@ -518,6 +536,12 @@ export const Data =
      },
      {
          "id" : "11",
+         "image" : [
+            {
+                "picture" : require("../assets/imagesVitrine/vitrine11.jpg"),
+                "file_name" : "Vitrine 11"                   
+            }
+        ],
          "title" : [
              "Merveilles diplomatiques - Venise",
              "精美绝伦的外交礼品：威尼斯共和国"
@@ -537,6 +561,12 @@ export const Data =
      },
      {
          "id" : "12",
+         "image" : [
+            {
+                "picture" : require("../assets/imagesVitrine/vitrine12.jpg"),
+                "file_name" : "Vitrine 12"                   
+            }
+        ],
          "title" : [
              "Merveilles diplomatiques - Empire Ottoman",
              "精美绝伦的外交礼品：\n奥斯曼帝国"
@@ -555,6 +585,12 @@ export const Data =
      },
      {
          "id" : "13",
+         "image" : [
+            {
+                "picture" : require("../assets/imagesVitrine/vitrine13.jpg"),
+                "file_name" : "Vitrine 13"                   
+            }
+        ],
          "title" : [
              "Merveilles diplomatiques - Les présents du Shogun et du sultan de Mysore", 
              "精美绝伦的外交礼品：幕府将军和迈索尔苏丹的礼物"],
@@ -582,6 +618,12 @@ export const Data =
      },
      {
          "id" : "14",
+         "image" : [
+            {
+                "picture" : require("../assets/imagesVitrine/vitrine14.jpg"),
+                "file_name" : "Vitrine 14"                   
+            }
+        ],
          "title" : [
              "Merveilles diplomatiques - Empire Ottoman",
              "精美绝伦的外交礼品：\n奥斯曼帝国"],
@@ -631,6 +673,12 @@ export const Data =
      },
      {
          "id" : "15",
+         "image" : [
+            {
+                "picture" : require("../assets/imagesVitrine/vitrine15.jpg"),
+                "file_name" : "Vitrine 15"                   
+            }
+        ],
          "title" : [
              "Merveilles diplomatiques - Empire Ottoman", 
              "精美绝伦的外交礼品：\n奥斯曼帝国"],
@@ -656,6 +704,12 @@ export const Data =
      },
      {
          "id" : "16",
+         "image" : [
+            {
+                "picture" : require("../assets/imagesVitrine/vitrine16.jpg"),
+                "file_name" : "Vitrine 16"                   
+            }
+        ],
          "title" : [
              "Maîtres provinciaux",
              "技艺高超的外省民间工匠"],
@@ -758,6 +812,12 @@ export const Data =
      },
      {
          "id" : "17",
+         "image" : [
+             {
+                 "picture" : require("../assets/imagesVitrine/vitrine17.jpg"),
+                 "file_name" : "Vitrine 17"                   
+             }
+         ],
          "title" : [
              "Ingéniosités mécaniques",
              "精巧的机械装置"],
@@ -940,6 +1000,12 @@ export const Data =
      },
      {
          "id" : "18",
+         "image" : [
+            {
+                "picture" : require("../assets/imagesVitrine/vitrine18.jpg"),
+                "file_name" : "Vitrine 18"                   
+            }
+        ],
          "title" : [
              "A la chasse et à la guerre", 
              "能狩猎也能打仗"],
@@ -1074,6 +1140,12 @@ export const Data =
      },
      {
          "id" : "19",
+         "image" : [
+            {
+                "picture" : require("../assets/imagesVitrine/vitrine19.jpg"),
+                "file_name" : "Vitrine 19"                   
+            }
+        ],
          "title" : ["Cimaise 1"],
          "cartel" : [
                      {
@@ -1089,6 +1161,12 @@ export const Data =
      },
      {
          "id" : "20",
+         "image" : [
+            {
+                "picture" : require("../assets/imagesVitrine/vitrine20.jpg"),
+                "file_name" : "Vitrine 20"                   
+            }
+        ],
          "title" : ["Cimaise 2"],
          "cartel" : [
                      {
