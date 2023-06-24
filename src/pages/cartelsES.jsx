@@ -28,6 +28,7 @@ function CartelsES () {
     setLightBoxDisplay(false)
   }
 
+  
   return (
     <div className="cartelArea">
       {Data.map((data, i) => (

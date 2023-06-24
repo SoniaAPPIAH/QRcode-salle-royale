@@ -1147,12 +1147,10 @@ export const Data =
                     "file_name" : "Vitrine 19"                   
                 }
             ],
-            "title" : ["Cimaise 1"],
+            "title" : ["","Luis XIII coronado por la Victoria"],
             "cartel" : [
                         {
-                            "object": [
-                                "Luis XIII coronado por la Victoria"
-                            ],
+                            "object": [],
                             "informations": ["Atribuido al taller de Pedro Pablo Rubens (1577-1640)", "Hacia 1620, Amberes, Bélgica", "Óleo sobre lienzo"],
                             "description": "Este retrato del joven Luis XIII es sin duda del periodo de sus primeras campañas: el sitio de Saint-Jean-d’Angély (mayo-junio de 1621) defendido por Benjamin de Rohan (1583-1642), barón de Soubise, y el sitio de Royan (mayo de 1622) durante las rebeliones de los hugonotes. Observando su estilo, el retrato parece pintado por varias manos, entre ellas quizá las de Frans Pourbus el Joven (1569-1622), brabanzón nacionalizado francés en 1618, que reside entonces en París, donde pinta los retratos de Luis XIII y de Ana de Austria. La armadura dorada, inusual en los otros retratos del rey, la Victoria coronando al joven soberano y el trofeo de armas que yace simbólicamente a sus pies vinculan esta obra con el ámbito flamenco y más particularmente con Amberes, donde se encuentran el taller de Rubens y el del armero Eliseus Libaerts.",
                             "credit": ["Depósito del Board of Trustees of the Royal Armouries, Leeds, inv. I.41"],
@@ -1168,12 +1166,10 @@ export const Data =
                     "file_name" : "Vitrine 20"                   
                 }
             ],
-            "title" : ["Cimaise 2"],
+            "title" : ["",  "Creación del Hôtel Royal des Invalides. El marqués de Louvois presenta a Luis XIV el plano para la construcción del Hôtel des Invalides"],
             "cartel" : [
                         {
-                            "object": [
-                                "Creación del Hôtel Royal des Invalides. El marqués de Louvois presenta a Luis XIV el plano para la construcción del Hôtel des Invalides"
-                            ],
+                            "object": [],
                             "informations": ["Pierre Dulin (1669-1748)", "1710-1715, París, Francia", "Óleo sobre lienzo"],
                             "credit": ["Depósito del Musée et Domaine National des Châteaux de Versailles et de Trianon, inv. MV 2100"],
                             "numInv": "Inv. 6629, 4279, AC  1555" 
