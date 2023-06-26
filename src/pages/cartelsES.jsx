@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import React from 'react'
 import {Data} from '../data/cartelsES.js'
 import arrowUp from '../assets/arrowUp.svg'
 import arrowDown from '../assets/arrowDown.svg'
@@ -28,13 +29,23 @@ function CartelsES () {
     setLightBoxDisplay(false)
   }
 
-  
+  const refs = Data.reduce((acc, value) => {
+    acc[value.id] = React.createRef();
+    return acc;
+  }, {});
+
+  const handleClick = id =>
+    refs[id].current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+
   return (
     <div className="cartelArea">
       {Data.map((data, i) => (
-        <div key={data.id}>
-          <div className="collapse">
-            <div className="collapseTitleBloc">
+        <div key={data.id} onClick={() => handleClick(data.id)} >
+          <div className="collapse"  key={data.id} ref={refs[data.id]}>
+            <div className="collapseTitleBloc"   >
               <div className="image">
                 {data.image && data.image.map (image => (
                   <img className="collapseImage" onClick={() => showImage(image.picture)} src={image.picture} alt={image.file_name}/>
